@@ -1,5 +1,8 @@
 ## About the Model (Supermix v27)
 
+Supermix_27 is a structured AI/chat project repository designed for GitHub publishing, with a clear split between source code, runtime assets, and web deployment bundles. It includes open-source training and dataset-building code in source/, a real trained PyTorch chat model and Python interfaces in runtime_python/, retained .jsonl datasets and SQLite runtime databases, and a web_static/ GitHub Pages-compatible UI that provides browser-side metadata retrieval (rather than running the PyTorch model directly in-browser). The repository is also configured for Git LFS to manage large assets such as model checkpoints, datasets, databases, and release bundles.
+
+
 `Supermix_27` includes a **trained PyTorch chat model checkpoint** used by the local Python runtime:
 
 - **Checkpoint path:** `runtime_python/champion_model_chat_supermix_v27_500k_ft.pth`
